@@ -9,6 +9,21 @@ Author: Brian Gershon
 
 License: MIT
 
+Commands you can send via UART
+------------------------------
+
+Just type these commands the Bluefruit UART App for iOS (or other UART app):
+
+* `clear` - clear display
+
+* `red` - draw red box
+
+* `green` - draw green box
+
+* `yellow` - draw yellow box
+
+* `countdown` - draw 3, 2, 1
+
 Components
 ----------
 
@@ -20,7 +35,7 @@ Components
 
 * [Bluefruit UART app for iOS](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=830125974&mt=8) to send text commands via Bluetooth.
 
-Arduino and Component Wiring and Setup
---------------------------------------
+Wiring and Setup
+----------------
 
 * Wire up components and install Adafruit Arduino libraries as described in the two product tutorials above.
